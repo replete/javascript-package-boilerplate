@@ -1,10 +1,11 @@
 /** [ツ] javascript-package-boilerplate
 	@version	1.0.1
-	@link		https://github.com/replete/javascript-package-boilerplate#readme
+	@url		https://github.com/replete/javascript-package-boilerplate#readme
 	@author		Phil Ricketts [phil@replete.nu] @replete
 	@license	MIT
 	@see		https://github.com/replete/javascript-module-patterns
-*//* globals	define */
+*/
+/*	globals		define */
 (function (root, factory) {
 
 	var modules = ['dependency1', 'dependency2', 'underscore'];

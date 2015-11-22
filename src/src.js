@@ -1,10 +1,11 @@
 /** [ツ] ${p.name}
 	@version	${p.version}
-	@link		${p.homepage}
+	@url		${p.homepage}
 	@author		${p.author.name} [${p.author.email}] @${p.author.twitter}
 	@license	${p.license}
 	@see		https://github.com/replete/javascript-module-patterns
-*//* globals	define */
+*/
+/*	globals		define */
 (function (root, factory) {
 
 	var modules = ['dependency1', 'dependency2', 'underscore'];

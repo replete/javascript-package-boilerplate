@@ -1,5 +1,5 @@
 /** [ツ] javascript-package-boilerplate
-	@link		http://github.com/replet/javascript-package-boierplate
+	@url		http://github.com/replet/javascript-package-boierplate
 	@author		Phil Ricketts [phil@replete.nu] @twitter
 	@license	MIT
 */
