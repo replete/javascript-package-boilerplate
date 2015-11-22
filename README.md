@@ -1,9 +1,10 @@
-> [![npm version](https://badge.fury.io/js/javascript-package-boilerplate.svg)](https://badge.fury.io/js/javascript-package-boilerplate)
-> __Using this boilerplate:__
-> * Just run `npm start` after your first `npm install`.
-> * More features in the works...
-> * You can now delete this bit.
+> ###Using this boilerplate:
+> * Update `package.json` _correctly_
+> * Write your awesome package
+> * `npm start` to build
+> * Commit, Publish, Repeat
 
+[![npm version](https://badge.fury.io/js/javascript-package-boilerplate.svg)](https://badge.fury.io/js/javascript-package-boilerplate)
 # javascript-package-boilerplate - 1.0.0
 Boilerplate for Javascript packages. Includes ES6 template compilation for src code/docs/demo/license.
 
@@ -16,18 +17,19 @@ Boilerplate for Javascript packages. Includes ES6 template compilation for src c
 ## Usage
 Exposed as the global `awesomeModule`:
 ```js
-	awesomeModule(awesomeCallback);
-	function awesomeCallback(str) {
-		document.getElementById('value').textContent = str + Math.random();
-	}
+awesomeModule(awesomeCallback);
+function awesomeCallback(result) {
+	document.getElementById('value').textContent = result;
+}
 ```
 As an AMD module:
 ```js
-	var awesomeModule = require('awesomeModule');
-	awesomeModule(awesomeCallback);
-	function awesomeCallback(str) {
-		document.getElementById('value').textContent = str + Math.random();
-	}
+var awesomeModule = require('awesomeModule');
+
+awesomeModule(awesomeCallback);
+function awesomeCallback(result) {
+	document.getElementById('value').textContent = result;
+}
 ```
 
 ## License
