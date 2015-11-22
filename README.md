@@ -1,5 +1,5 @@
 > ###Using this boilerplate:
-> 1. Download and extract [zip](https://github.com/replete/javascript-package-boilerplate/archive/v1.0.1.zip) [tar.gz](https://github.com/replete/javascript-package-boilerplate/archive/v1.0.1.tar.gz)
+> 1. Download and extract ([zip](https://github.com/replete/javascript-package-boilerplate/archive/v1.0.1.zip) or [tar.gz](https://github.com/replete/javascript-package-boilerplate/archive/v1.0.1.tar.gz))
 > 2. Update `package.json` with your new package details
 > 3. Write your awesome package
 > 4. `npm start` to build

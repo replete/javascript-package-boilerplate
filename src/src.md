@@ -1,5 +1,5 @@
 > ###Using this boilerplate:
-> 1. Download and extract [zip](https://github.com/${p.author.github}/${p.name}/archive/v${p.version}.zip) [tar.gz](https://github.com/${p.author.github}/${p.name}/archive/v${p.version}.tar.gz)
+> 1. Download and extract ([zip](https://github.com/${p.author.github}/${p.name}/archive/v${p.version}.zip) or [tar.gz](https://github.com/${p.author.github}/${p.name}/archive/v${p.version}.tar.gz))
 > 2. Update `package.json` with your new package details
 > 3. Write your awesome package
 > 4. `npm start` to build
