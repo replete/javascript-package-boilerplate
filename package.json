@@ -1,0 +1,41 @@
+{
+  "name": "javascript-package-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for Javascript packages. Includes ES6 template compilation for src code/docs/demo/license.",
+  "main": "boilerplate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/replete/javascript-package-boilerplate.git"
+  },
+  "keywords": [
+    "javascript",
+    "animation",
+    "refresh",
+    "monitor",
+    "video",
+    "requestanimationframe",
+    "performance",
+    "fps",
+    "browser"
+  ],
+  "author": {
+    "name": "Phil Ricketts",
+    "email": "phil@replete.nu",
+    "twitter": "replete",
+    "github": "replete"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/replete/javascript-package-boilerplate/issues"
+  },
+  "homepage": "https://github.com/replete/javascript-package-boilerplate#readme",
+  "devDependencies": {
+    "eslint": "^1.10.1",
+    "prismjs": "^1.3.0",
+    "uglify-js": "^2.6.1"
+  }
+}

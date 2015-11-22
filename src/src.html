@@ -1,0 +1,132 @@
+<!doctype html>
+<html class="block">
+<head>
+	<meta charset="utf-8">
+	<title>${p.name} – ${p.description}</title>
+
+	<script>
+	// Our fake dependencies:
+	window.dep1 = function(){};
+	window.d2 = function(){};
+	window._ = function(){};
+	</script>
+
+	<script src="${p.main}"></script>
+</head>
+<body>
+<main class="pad">
+
+	<h1>
+		<a href="${p.homepage}">${p.name}</a>
+		<span class="soft small">v${p.version}</span>
+		<span class="small fr"><a href="http://twitter.com/${p.author.github}" target="_blank">github</a></span>
+	</h1>
+	<p>${p.description}<br/><br/></p>
+	
+
+	<div class="canvas pad" id="demo">
+		<div id="demo-html">
+			<button onclick="awesomeModule(awesomeCallback);">get awesome</button>
+			<small id="value"></small>
+		</div>
+		<script id="demo-js">
+awesomeModule(awesomeCallback);
+function awesomeCallback(result) {
+	document.getElementById('value').textContent = result;
+}
+		</script>
+	</div>
+
+
+	<pre class="block canvas pad">
+	<code class="language-js" data-insert-js>
+	</code>
+	</pre>
+
+</main>
+
+<div class="pad">
+	<div class="small soft">
+	∞<span class="fr">made with ❤, ninjas, and other clichés by <a href="http://twitter.com/${p.author.twitter}" target="_blank">@${p.author.twitter}</a></span>
+	</div>
+
+	<h2>${p.license} License</h2>
+	<p class="small soft">
+		${license}
+	</p>
+</div>
+
+
+
+
+
+<script>
+document.querySelector('[data-insert-js]').textContent = document.getElementById('demo-js').textContent;
+</script>
+<style>
+/* Layout */
+*:not(span) {
+	margin: 0 0 1em 0;
+	font-family: -apple-system, "Helvetica Neue", "Lucida Grande", sans-serif;
+}
+body {
+	max-width: 800px;
+	margin: 0 auto
+}
+main {
+	background: #fff;
+	margin: 40px 0 0 0;
+	box-shadow: 0 4px 4px -2px #ccc
+}
+code {
+	font-family: monospace;
+	font-size:13px;
+}
+
+/* Style:; */
+.small {
+	font-size: 15px
+}
+.pad {
+	padding: 40px;
+}
+.block {
+	background: #eee
+}
+.soft {
+	color: #aaa
+}
+.small {
+	font-size: 13px
+}
+.canvas {
+	padding:30px;
+	box-shadow:inset 2px 2px 8px -2px #ddd;
+	background: #fafafa;
+}
+.canvas * {
+	font-size:14px;
+	margin:0 1em 0 0;
+}
+.fr {
+	float:right
+}
+.tc {
+	text-align:center
+}
+a {
+	color: #FF25B8;
+	text-decoration: none
+}
+p {
+	max-width:600px;
+}
+</style>
+
+
+<style>${prismcss}</style>
+<script>${prismjs}</script>
+
+
+</body>
+</html>
