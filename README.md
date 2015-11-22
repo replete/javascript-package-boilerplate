@@ -5,14 +5,14 @@
 > * Commit, Publish, Repeat
 
 [![npm version](https://badge.fury.io/js/javascript-package-boilerplate.svg)](https://badge.fury.io/js/javascript-package-boilerplate)
-# javascript-package-boilerplate - 1.0.0
+# javascript-package-boilerplate - 1.0.1
 Boilerplate for Javascript packages. Includes ES6 template compilation for src code/docs/demo/license.
 
 ## Environment Support
 * AMD, Node (or similar non-strict CommonJS), Browsers
 
 ## Demo
-[javascript-package-boilerplate (1.0.0) demo](http://replete.github.com/javascript-package-boilerplate)
+[javascript-package-boilerplate (1.0.1) demo](http://replete.github.com/javascript-package-boilerplate)
 
 ## Usage
 Exposed as the global `awesomeModule`:

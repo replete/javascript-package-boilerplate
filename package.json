@@ -1,6 +1,6 @@
 {
   "name": "javascript-package-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Boilerplate for Javascript packages. Includes ES6 template compilation for src code/docs/demo/license.",
   "main": "boilerplate.js",
   "scripts": {
@@ -13,14 +13,15 @@
   },
   "keywords": [
     "javascript",
-    "animation",
-    "refresh",
-    "monitor",
-    "video",
-    "requestanimationframe",
-    "performance",
-    "fps",
-    "browser"
+    "boilerplate",
+    "npm",
+    "build",
+    "tasks",
+    "conventions",
+    "browser",
+    "package",
+    "module",
+    "standards"
   ],
   "author": {
     "name": "Phil Ricketts",
