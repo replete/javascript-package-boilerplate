@@ -1,10 +1,11 @@
-[![npm version](https://badge.fury.io/js/javascript-package-boilerplate.svg)](https://badge.fury.io/js/javascript-package-boilerplate)
+> [![npm version](https://badge.fury.io/js/javascript-package-boilerplate.svg)](https://badge.fury.io/js/javascript-package-boilerplate)
+> __Using this boilerplate:__
+> * Just run `npm start` after your first `npm install`.
+> * More features in the works...
+> * You can now delete this bit.
+
 # javascript-package-boilerplate - 1.0.0
 Boilerplate for Javascript packages. Includes ES6 template compilation for src code/docs/demo/license.
-
-## !Using this boilerplate:
-* Just run `npm start` after your first `npm install`.
-* More features in the works...
 
 ## Environment Support
 * AMD, Node (or similar non-strict CommonJS), Browsers
