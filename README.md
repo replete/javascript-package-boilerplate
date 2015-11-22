@@ -1,8 +1,14 @@
 > ###Using this boilerplate:
-> * Update `package.json` _correctly_
-> * Write your awesome package
-> * `npm start` to build
-> * Commit, Publish, Repeat
+> 1. Download and extract [zip](https://github.com/replete/javascript-package-boilerplate/archive/v1.0.1.zip) [tar.gz](https://github.com/replete/javascript-package-boilerplate/archive/v1.0.1.tar.gz)
+> 2. Update `package.json` with your new package details
+> 3. Write your awesome package
+> 4. `npm start` to build
+> 5. Commit and pubish your package
+>
+> ###Features:
+> * `npm start` builds your JS, documentation, and demos with templated strings
+> * AMD, Node/CommonJS, and browser global module pattern
+> * A minimal and tidy approach to repo structure
 
 [![npm version](https://badge.fury.io/js/javascript-package-boilerplate.svg)](https://badge.fury.io/js/javascript-package-boilerplate)
 # javascript-package-boilerplate - 1.0.1
