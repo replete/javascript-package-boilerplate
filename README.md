@@ -1,5 +1,5 @@
 > ###Using this boilerplate:
-> 1. Download and extract ([zip](https://github.com/replete/javascript-package-boilerplate/archive/v1.0.1.zip) or [tar.gz](https://github.com/replete/javascript-package-boilerplate/archive/v1.0.1.tar.gz))
+> 1. Download and extract ([zip](https://github.com/replete/javascript-package-boilerplate/archive/v1.0.2.zip) or [tar.gz](https://github.com/replete/javascript-package-boilerplate/archive/v1.0.2.tar.gz))
 > 2. Update `package.json` with your new package details
 > 3. Write your awesome package
 > 4. `npm start` to build
@@ -11,14 +11,14 @@
 > * A minimal and tidy approach to repo structure
 
 [![npm version](https://badge.fury.io/js/javascript-package-boilerplate.svg)](https://badge.fury.io/js/javascript-package-boilerplate)
-# javascript-package-boilerplate - 1.0.1
+# javascript-package-boilerplate - 1.0.2
 Boilerplate for Javascript packages. Includes ES6 template compilation for src code/docs/demo/license.
 
 ## Environment Support
 * AMD, Node (or similar non-strict CommonJS), Browsers
 
 ## Demo
-[javascript-package-boilerplate (1.0.1) demo](http://replete.github.com/javascript-package-boilerplate)
+[javascript-package-boilerplate (1.0.2) demo](http://replete.github.com/javascript-package-boilerplate)
 
 ## Usage
 Exposed as the global `awesomeModule`:
