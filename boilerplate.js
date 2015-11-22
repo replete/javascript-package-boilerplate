@@ -1,5 +1,5 @@
 /** [ツ] javascript-package-boilerplate
-	@version	1.0.2
+	@version	1.0.3
 	@url		https://github.com/replete/javascript-package-boilerplate#readme
 	@author		Phil Ricketts [phil@replete.nu] @replete
 	@license	MIT
