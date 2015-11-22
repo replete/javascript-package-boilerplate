@@ -6,7 +6,7 @@
 var fs = require('fs');
 var minify = js => require('uglify-js').minify(js,{
 		fromString: true,
-		output: { comments: true }
+		output: { comments: /^(\*)/ }
 	}).code;
 
 var p = require('../package');
