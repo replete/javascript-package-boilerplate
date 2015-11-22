@@ -2,7 +2,7 @@
   "name": "javascript-package-boilerplate",
   "version": "1.0.1",
   "description": "Boilerplate for Javascript packages. Includes ES6 template compilation for src code/docs/demo/license.",
-  "main": "boilerplate.js",
+  "main": "boilerplate",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node .build"
