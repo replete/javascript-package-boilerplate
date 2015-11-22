@@ -18,10 +18,10 @@ function build() {
 	// Javascript:
 	fs.readFile('src/src.js', 'utf8', function (err, data) {
 		data = data.toTemplate();
-		fs.writeFile(p.main, data);
+		fs.writeFile(p.main + '.js', data);
 		data = minify(data);
 
-		fs.writeFile(p.main.replace('.js', '.min.js'), data);
+		fs.writeFile(p.main + '.min.js', data);
 	});
 
 	// Documentation:
