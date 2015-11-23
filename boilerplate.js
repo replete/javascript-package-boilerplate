@@ -1,6 +1,6 @@
 /**[ツ] javascript-package-boilerplate
 	Boilerplate for Javascript packages. Includes ES6 template compilation for src code/docs/demo/license.
-	@version	1.0.3
+	@version	1.0.4
 	@url		https://github.com/replete/javascript-package-boilerplate#readme
 	@author		Phil Ricketts <phil@replete.nu> @replete
 	@license	MIT

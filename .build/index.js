@@ -1,12 +1,11 @@
-/** [ツ] javascript-package-boilerplate
-	@url		http://github.com/replet/javascript-package-boierplate
-	@author		Phil Ricketts [phil@replete.nu] @twitter
+/**[ツ]	javascript-package-boilerplate
+	@url		http://github.com/replete/javascript-package-boierplate
+	@author		Phil Ricketts <phil@replete.nu> @replete
 	@license	MIT
 */
 var fs = require('fs');
 var minify = js => require('uglify-js').minify(js,{
-		fromString: true,
-		output: { comments: /^(\*)/ }
+		fromString: true
 	}).code;
 
 var p = require('../package');
@@ -19,8 +18,9 @@ function build() {
 	fs.readFile('src/src.js', 'utf8', function (err, data) {
 		data = data.toTemplate();
 		fs.writeFile(p.main + '.js', data);
-		data = minify(data);
-
+		var header = data[0] === '/' ? data.match(/(?:\/\*(?:[\s\S]*?)\*\/)|(?:([\s])+\/\/(?:.*)$)/)[0] : '';
+		
+		data = header + minify(data)
 		fs.writeFile(p.main + '.min.js', data);
 	});
 
